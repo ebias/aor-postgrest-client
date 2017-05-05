@@ -1,5 +1,5 @@
 {
-  "name": "aor-postgrest-client",
+  "name": "@sebastien-cleany/aor-postgrest-client",
   "version": "0.1.0",
   "description": "A postgrest client for admin-on-rest",
   "main": "lib/index.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomberek/aor-postgres-client.git"
+    "url": "git+https://github.com/cleany/aor-postgres-client.git"
   },
   "keywords": [
     "reactjs",
@@ -26,9 +26,9 @@
   "author": "Thomas Bereknyei",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomberek/aor-postgres-client/issues"
+    "url": "https://github.com/cleany/aor-postgres-client/issues"
   },
-  "homepage": "https://github.com/tomberek/aor-postgres-client#readme",
+  "homepage": "https://github.com/cleany/aor-postgres-client#readme",
   "dependencies": {
     "admin-on-rest": "^0.7.0"
   },
