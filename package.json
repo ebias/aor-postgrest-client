@@ -1,6 +1,6 @@
 {
   "name": "@sebastien-cleany/aor-postgrest-client",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "A postgrest client for admin-on-rest",
   "main": "lib/index.js",
   "scripts": {
