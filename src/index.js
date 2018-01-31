@@ -143,7 +143,7 @@ export default (apiUrl, httpClient = fetchJson) => {
                 total: parseInt(headers.get('content-range').split('/').pop(), 10) || maxInPage,
             };
         case CREATE:
-            return { data: { ...params.data, id: json.id } };
+            return { data: { ...params.data, id: json[0].id } };
         case UPDATE:
             return { data: { ...params.data, id: params.id } };
 	case DELETE:
