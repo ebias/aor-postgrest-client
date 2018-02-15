@@ -79,7 +79,7 @@ export default (apiUrl, httpClient = fetchJson) => {
             let query = {
                 order: field + '.' +  order.toLowerCase(),
             };
-			Object.assign(query, convertFilters(params.filter));
+			Object.assign(query, convertFilters(params.filter || {}));
             url = `${apiUrl}/${resource}?${queryParameters(query)}`;
             break;
         }
